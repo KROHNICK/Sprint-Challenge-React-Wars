@@ -6,3 +6,54 @@
   text-shadow: 1px 1px 5px #fff;
 }
 /* write your parent styles in here for your App.js */
+
+* {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  font-family: "Roboto", sans-serif;
+}
+
+.App {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.App .Header {
+  font-size: 5rem;
+  color: black;
+}
+
+.App .StarWarsCharsList {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  height: 800px;
+}
+
+.App .StarWarsCharsList .StarWarsCard {
+  background: rgba(200, 54, 54, 1);
+  width: 200px;
+  height: 200px;
+  margin: 20px;
+  box-shadow: 5px 5px;
+  border-radius: 8px;
+}
+
+.App .StarWarsCharsList .StarWarsCard h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: black;
+  border: 1px solid coral;
+  border-radius: 8px;
+  width: 175px;
+  margin: 5%;
+  background-color: coral;
+  /* box-shadow: 5px 5px; */
+}
+
+.App .StarWarsCharsList .StarWarsCard p {
+  font-size: 1.6rem;
+  line-height: 4px;
+  color: lightcyan;
+}
